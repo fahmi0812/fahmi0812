@@ -9,6 +9,24 @@
 
 ## What I've built
 
+### Lumitome — terminal coding assistant
+**A terminal coding assistant built on a pinned OpenCode 2.3.0, kept separate from your own OpenCode.**
+- You give it a task, such as "fix the failing tests". It reads your code, edits files, and runs commands.
+- Runs separately from any OpenCode you already have installed.
+→ https://github.com/fahmi0812/Lumitome
+
+### Kerjacoy — job-search agent
+**A job-search agent: search openings across fields, score fit, track applications, and prepare application materials. Includes Indonesian openings.**
+- Searches job openings across fields and scores how well they fit your profile.
+- Tracks applications and helps prepare application materials.
+→ https://github.com/fahmi0812/Kerjacoy
+
+### 0DayExploit — autonomous pentest agent
+**An autonomous full-pentest CLI agent on OpenCode — scope-guarded and evidence-verified.**
+- 28 skills, 32 wired tools, CVE intel, and a killchain engine. Findings are evidence-verified by replay, or marked UNVERIFIED.
+- Authorized targets only.
+→ https://github.com/fahmi0812/0DayExploit
+
 ### muse-rsi — the flagship
 **Checked Muse skills, and the setup that installs them.**
 - 384 starred repos reviewed → 64 kept in the core list.
@@ -27,8 +45,14 @@
 - Proprietary licence.
 → https://github.com/fahmi0812/SIAB1
 
-### muse-make-fun — full make.fun setup
-**For Muse and CLI AI agents. Indonesian guide included.**
+### SIAB2 — SchoolHub e-Hadir
+**A QR-based school attendance system for MAN 1 Rokan Hulu.**
+- Gate and prayer attendance is recorded through the official Android app (SIAB2 Reader), which scans student or teacher QR codes.
+- Class attendance is entered manually by teachers.
+→ https://github.com/fahmi0812/SIAB2
+
+### Also built
+**muse-make-fun — full make.fun setup. For Muse and CLI AI agents. Indonesian guide included.**
 - Official skill (v1.5.236), 4 install methods, an 8-step bounty loop.
 - Safety first: $0 cap, no password / seed phrase / API key / OTP ever asked for in chat.
 - This is the setup and guide — not a competition entry.
@@ -51,7 +75,7 @@ I build with KimiCharmi, my autonomous orchestrator — it executes first, prove
 
 ## Currently
 - muse-rsi: daily RSI loop running every 24 hours.
-- SIAB1: public repo live with a clean history; SIAB2 to follow the same clean-history path.
+- SIAB1: public repo live with a clean history; SIAB2: public repo live.
 - Learning in public: writing about what I verify, what I reject, and why.
 
 - *Verify first. Ship second. Roll back if you have to.*
